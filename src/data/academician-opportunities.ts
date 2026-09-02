@@ -1,0 +1,113 @@
+import type { AcademicianOpportunity } from '../types';
+
+export const academicianOpportunities: AcademicianOpportunity[] = [
+  {
+    id: 'ACO001',
+    title: 'Faculty Development Program on GenAI',
+    type: 'fdp',
+    organization: 'TCS',
+    description: 'A 5-day extensive program for faculty members on integrating Generative AI in computer science curriculum.',
+    skills: ['Machine Learning', 'NLP', 'Deep Learning'],
+    duration: '1 week',
+    location: 'Remote',
+    workMode: 'remote',
+    deadline: '2023-10-30T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO002',
+    title: 'Consultancy: E-commerce Recommendation Systems',
+    type: 'consultancy',
+    organization: 'Flipkart',
+    description: 'Looking for experts to consult on improving large-scale collaborative filtering models.',
+    skills: ['Machine Learning', 'Python', 'Big Data'],
+    duration: '3 months',
+    location: 'Bangalore, India',
+    workMode: 'hybrid',
+    compensation: '₹1,50,000 / month',
+    deadline: '2023-11-15T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO003',
+    title: 'Industrial Training on Modern Web Stack',
+    type: 'industrial-training',
+    organization: 'Razorpay',
+    description: 'Hands-on training session for academicians on modern payment gateways and React architecture.',
+    skills: ['React', 'Node.js', 'System Design'],
+    duration: '2 weeks',
+    location: 'Bangalore, India',
+    workMode: 'onsite',
+    deadline: '2023-10-25T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO004',
+    title: 'Research Collaboration: NLP for Indian Languages',
+    type: 'research',
+    organization: 'Infosys',
+    description: 'Joint research grant available for professors working on NLP models for regional Indian languages.',
+    skills: ['NLP', 'Deep Learning', 'Python'],
+    duration: '1 year',
+    location: 'Remote',
+    workMode: 'remote',
+    compensation: 'Grant up to ₹10,00,000',
+    deadline: '2023-12-01T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO005',
+    title: 'Guest Lecture: Microservices Architecture',
+    type: 'guest-lecture',
+    organization: 'Freshworks',
+    description: 'Inviting academicians to deliver guest lectures on advanced software architectures to our junior engineering cohort.',
+    skills: ['Software Architecture', 'Docker', 'Kubernetes'],
+    duration: '1 day',
+    location: 'Chennai, India',
+    workMode: 'hybrid',
+    compensation: '₹20,000 / session',
+    deadline: '2023-10-20T00:00:00Z',
+    status: 'closed'
+  },
+  {
+    id: 'ACO006',
+    title: 'Faculty Internship in DevOps',
+    type: 'faculty-internship',
+    organization: 'TCS',
+    description: 'Summer internship for faculty members to get hands-on experience with modern CI/CD pipelines and cloud infrastructure.',
+    skills: ['DevOps', 'AWS', 'CI/CD'],
+    duration: '2 months',
+    location: 'Mumbai, India',
+    workMode: 'hybrid',
+    compensation: '₹80,000 / month',
+    deadline: '2024-03-15T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO007',
+    title: 'Industry Project: Automated Code Reviewer',
+    type: 'industry-project',
+    organization: 'Infosys',
+    description: 'Seeking academic partnership to build a static analysis tool powered by LLMs for automated code review.',
+    skills: ['Machine Learning', 'Python', 'Software Engineering'],
+    duration: '6 months',
+    location: 'Remote',
+    workMode: 'remote',
+    compensation: 'Project based funding',
+    deadline: '2023-11-30T00:00:00Z',
+    status: 'open'
+  },
+  {
+    id: 'ACO008',
+    title: 'FDP: Cloud Native Application Development',
+    type: 'fdp',
+    organization: 'AWS / Freshworks',
+    description: 'Faculty development program focusing on building scalable cloud-native applications.',
+    skills: ['AWS', 'Cloud', 'Node.js'],
+    duration: '3 days',
+    location: 'Chennai, India',
+    workMode: 'onsite',
+    deadline: '2023-10-05T00:00:00Z',
+    status: 'closed'
+  }
+];
