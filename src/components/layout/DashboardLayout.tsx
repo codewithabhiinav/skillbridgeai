@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import TopBar from './TopBar';
+import CoderCredit from './CoderCredit';
 
 interface DashboardLayoutProps {
   title?: string;
@@ -15,6 +16,7 @@ export default function DashboardLayout({ title }: DashboardLayoutProps) {
         <div className="dashboard-content">
           <Outlet />
         </div>
+        <CoderCredit variant="footer" />
       </div>
     </div>
   );

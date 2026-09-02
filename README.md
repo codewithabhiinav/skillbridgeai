@@ -4,7 +4,7 @@
 
 An Academia–Industry collaboration platform that connects students, recruiters, institutions, and academicians through skill assessment, gap analysis, learning recommendations, and explainable opportunity matching.
 
-Built by **Team DOOMED MINDS**.
+Built by **Team DOOMED MINDS** · **Coded by Abhinav**
 
 ---
 

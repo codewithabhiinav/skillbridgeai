@@ -19,6 +19,7 @@ import DashboardLayout from './components/layout/DashboardLayout';
 // Pages
 import Landing from './pages/Landing';
 import DemoLogin from './pages/DemoLogin';
+import CoderCredit from './components/layout/CoderCredit';
 
 // Student Pages
 import StudentDashboard from './pages/student/Dashboard';
@@ -214,6 +215,7 @@ export default function App() {
       <DataProvider initialData={initialData}>
         <AuthProvider demoUsers={demoUsers}>
           <AppRoutes />
+          <CoderCredit variant="fixed" />
         </AuthProvider>
       </DataProvider>
     </BrowserRouter>

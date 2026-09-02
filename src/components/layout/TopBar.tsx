@@ -3,6 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Bell, Users, GraduationCap, Building2, BookOpen, ArrowLeftRight } from 'lucide-react';
 import type { UserRole } from '../../types';
+import CoderCredit from './CoderCredit';
 
 const roleConfig: Record<UserRole, { label: string; icon: React.ReactNode; color: string }> = {
   student: { label: 'Student', icon: <GraduationCap size={16} />, color: 'var(--color-accent)' },
@@ -28,7 +29,7 @@ export default function TopBar({ title }: TopBarProps) {
     <>
       {isDemoMode && (
         <div className="demo-banner">
-          🎯 HACKATHON DEMO MODE — SIH 2026 | Team DOOMED MINDS | Problem: SIH26044
+          🎯 HACKATHON DEMO MODE — SIH 2026 | Team DOOMED MINDS | Problem: SIH26044 · <CoderCredit />
         </div>
       )}
       <div className="topbar">

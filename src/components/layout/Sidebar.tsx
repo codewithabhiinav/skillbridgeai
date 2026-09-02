@@ -6,6 +6,7 @@ import {
   GraduationCap, TrendingUp, Factory, FileBarChart, Lightbulb,
   FlaskConical, Handshake, Award, LogOut, Zap
 } from 'lucide-react';
+import CoderCredit from './CoderCredit';
 
 const navConfig = {
   student: [
@@ -112,6 +113,7 @@ export default function Sidebar() {
           <LogOut size={20} />
           <span>Logout</span>
         </button>
+        <CoderCredit variant="sidebar" />
       </div>
     </aside>
   );

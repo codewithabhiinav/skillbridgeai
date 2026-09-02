@@ -4,6 +4,7 @@ import {
   Brain, Target, TrendingUp, ArrowRight,
   CheckCircle2, Users, Briefcase, Sparkles
 } from 'lucide-react';
+import CoderCredit from '../components/layout/CoderCredit';
 
 export default function Landing() {
   const navigate = useNavigate();
@@ -336,6 +337,9 @@ export default function Landing() {
         </p>
         <p style={{ color: 'var(--color-text-muted)', fontSize: 'var(--font-size-xs)', marginTop: '4px' }}>
           Built with ❤️ by Team DOOMED MINDS
+        </p>
+        <p style={{ marginTop: '10px' }}>
+          <CoderCredit />
         </p>
       </footer>
     </div>

@@ -5,6 +5,7 @@ import {
   Zap, ArrowRight, Sparkles 
 } from 'lucide-react';
 import type { UserRole } from '../types';
+import CoderCredit from '../components/layout/CoderCredit';
 
 const roles: { role: UserRole; icon: typeof GraduationCap; label: string; sublabel: string; desc: string; color: string; bg: string }[] = [
   {
@@ -174,6 +175,9 @@ export default function DemoLogin() {
 
       <p style={{ color: 'var(--color-text-muted)', fontSize: 'var(--font-size-xs)', marginTop: '40px', textAlign: 'center' }}>
         All data shown is synthetic demo data for demonstration purposes.
+      </p>
+      <p style={{ marginTop: '16px', textAlign: 'center' }}>
+        <CoderCredit />
       </p>
     </div>
   );
